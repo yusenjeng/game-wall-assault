@@ -1,0 +1,6 @@
+cp *.bat ../Wall\ Assault\ Demo/
+cp *.command ../Wall\ Assault\ Demo/
+mv *.luac ../Wall\ Assault\ Demo/
+mv entity/*.luac ../Wall\ Assault\ Demo/entity/
+mv component/*.luac ../Wall\ Assault\ Demo/component/
+cp level/*.lua ../Wall\ Assault\ Demo/level/

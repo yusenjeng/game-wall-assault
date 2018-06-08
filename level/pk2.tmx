@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="970" height="60" tilewidth="16" tileheight="16" backgroundcolor="#000000">
+ <tileset firstgid="1" name="tileset3" tilewidth="16" tileheight="16">
+  <image source="../assets/image/tileset3.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="tileset3" tilewidth="16" tileheight="16">
+  <image source="../assets/image/tileset3.png" width="256" height="512"/>
+ </tileset>
+ <layer name="background" width="970" height="60">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Terrain" width="970" height="60">
+  <object x="1728" y="400" width="352" height="80"/>
+  <object x="1136" y="368" width="224" height="96"/>
+  <object x="1360" y="464" width="368" height="16"/>
+  <object x="544" y="464" width="496" height="16"/>
+  <object type="up" x="1040" y="464">
+   <polyline points="0,0 96,-96 96,0 0,0"/>
+  </object>
+  <object type="down" x="2080" y="400">
+   <polyline points="0,0 96,96 0,96 0,16"/>
+  </object>
+  <object x="2176" y="496" width="272" height="48"/>
+  <object x="2544" y="496" width="320" height="48"/>
+  <object x="2864" y="448" width="288" height="96"/>
+  <object x="3040" y="384" width="112" height="64"/>
+  <object x="3152" y="528" width="224" height="16"/>
+  <object x="3376" y="448" width="192" height="80"/>
+  <object x="3696" y="416" width="320" height="80"/>
+  <object x="4400" y="432" width="144" height="64"/>
+  <object x="4016" y="352" width="240" height="96"/>
+  <object x="4352" y="576" width="880" height="16"/>
+  <object x="512" y="0" width="32" height="512"/>
+  <object x="2448" y="528" width="96" height="16"/>
+  <object x="3568" y="448" width="128" height="48"/>
+  <object x="4160" y="560" width="192" height="32"/>
+  <object x="15456" y="-128" width="32" height="704"/>
+  <object x="4672" y="432" width="144" height="64"/>
+  <object x="4944" y="432" width="128" height="64"/>
+  <object x="5232" y="512" width="192" height="80"/>
+  <object x="5552" y="480" width="208" height="128"/>
+  <object x="6480" y="432" width="208" height="48"/>
+  <object x="5408" y="592" width="144" height="16"/>
+  <object x="5664" y="544" width="1456" height="16"/>
+  <object x="6368" y="464" width="112" height="16"/>
+  <object x="4160" y="512" width="96" height="48"/>
+  <object x="7120" y="512" width="352" height="48"/>
+  <object x="7472" y="368" width="368" height="32"/>
+  <object x="8528" y="256" width="144" height="48"/>
+  <object x="8720" y="368" width="384" height="48"/>
+  <object x="7920" y="480" width="448" height="32"/>
+  <object x="8368" y="416" width="352" height="64"/>
+  <object type="down" x="7840" y="368">
+   <polygon points="0,0 112,112 0,112"/>
+  </object>
+  <object x="9104" y="336" width="144" height="48"/>
+  <object x="9248" y="368" width="976" height="16"/>
+  <object type="up" x="7472" y="368">
+   <polygon points="0,0 0,144 -144,144"/>
+  </object>
+  <object x="10224" y="336" width="192" height="48"/>
+  <object x="10512" y="304" width="272" height="80"/>
+  <object x="10768" y="384" width="496" height="16"/>
+  <object x="11440" y="272" width="192" height="48"/>
+  <object x="10880" y="192" width="256" height="48"/>
+  <object x="11728" y="416" width="608" height="16"/>
+  <object x="10416" y="368" width="96" height="16"/>
+  <object x="11264" y="320" width="176" height="64"/>
+  <object type="down" x="11632" y="272">
+   <polygon points="0,0 144,144 0,144"/>
+  </object>
+  <object x="12336" y="368" width="256" height="64"/>
+  <object x="12592" y="304" width="320" height="64"/>
+  <object x="12912" y="368" width="1072" height="16"/>
+  <object x="14128" y="560" width="1376" height="16"/>
+  <object type="down" x="13984" y="368">
+   <polygon points="0,0 192,192 0,192"/>
+  </object>
+  <object name="Entrance" x="640" y="432" width="22" height="22">
+   <ellipse/>
+  </object>
+  <object name="Exit" x="14768" y="176" width="48" height="384"/>
+ </objectgroup>
+ <objectgroup name="Trap" width="970" height="60">
+  <object name="Spike" x="2448" y="496" width="32" height="32"/>
+  <object name="Spike" x="2480" y="496" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1200" y="272" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4176" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4512" y="384" width="32" height="32"/>
+  <object name="Spike" x="3600" y="416" width="32" height="32"/>
+  <object name="Spike" x="3664" y="416" width="32" height="32"/>
+  <object name="Spike" x="3632" y="416" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="2480" y="400" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1936" y="368" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1584" y="368" width="32" height="32"/>
+  <object name="Obstacle" type="WallA" x="1840" y="368" width="32" height="32"/>
+  <object name="Spike" x="1360" y="432" width="32" height="32"/>
+  <object name="Spike" x="1392" y="432" width="32" height="32"/>
+  <object name="Spike" x="1456" y="432" width="32" height="32"/>
+  <object name="Spike" x="1424" y="432" width="32" height="32"/>
+  <object name="EPIC" type="RevivePotion" x="5200" y="544" width="32" height="32"/>
+  <object name="Obstacle" type="WallA" x="1872" y="368" width="32" height="32"/>
+  <object name="Spike" x="2512" y="496" width="32" height="32"/>
+  <object name="Spike" x="5456" y="560" width="32" height="32"/>
+  <object name="Spike" x="5424" y="560" width="32" height="32"/>
+  <object name="Spike" x="5520" y="560" width="32" height="32"/>
+  <object name="Spike" x="5488" y="560" width="32" height="32"/>
+  <object name="Torch" x="6800" y="512" width="16" height="16"/>
+  <object name="Torch" x="6816" y="512" width="16" height="16"/>
+  <object name="Torch" x="6832" y="512" width="16" height="16"/>
+  <object name="Torch" x="6224" y="512" width="16" height="16"/>
+  <object name="Torch" x="6272" y="512" width="16" height="16"/>
+  <object name="Torch" x="6256" y="512" width="16" height="16"/>
+  <object name="Torch" x="6240" y="512" width="16" height="16"/>
+  <object name="DogCamp" x="5888" y="512" width="32" height="32">
+   <properties>
+    <property name="delay" value="0.55"/>
+    <property name="vx" value="265"/>
+   </properties>
+  </object>
+  <object name="Torch" x="6848" y="512" width="16" height="16"/>
+  <object name="DogCamp" x="7632" y="336" width="32" height="32">
+   <properties>
+    <property name="delay" value="0.55"/>
+    <property name="vx" value="265"/>
+   </properties>
+  </object>
+  <object name="DogCamp" x="3152" y="496" width="32" height="32">
+   <properties>
+    <property name="delay" value="0.55"/>
+    <property name="vx" value="265"/>
+   </properties>
+  </object>
+  <object name="Spike" x="8336" y="448" width="32" height="32"/>
+  <object name="Spike" x="8304" y="448" width="32" height="32"/>
+  <object name="Spike" x="8272" y="448" width="32" height="32"/>
+  <object name="Obstacle" type="WallA" x="9712" y="336" width="32" height="32"/>
+  <object name="Obstacle" type="WallA" x="9680" y="336" width="32" height="32"/>
+  <object name="DogCamp" x="8720" y="336" width="32" height="32">
+   <properties>
+    <property name="delay" value="0.55"/>
+    <property name="vx" value="265"/>
+   </properties>
+  </object>
+  <object name="Torch" x="13824" y="336" width="16" height="16"/>
+  <object name="Torch" x="13792" y="336" width="16" height="16"/>
+  <object name="Torch" x="13840" y="336" width="16" height="16"/>
+  <object name="Torch" x="13808" y="336" width="16" height="16"/>
+  <object name="Obstacle" type="WallA" x="9712" y="304" width="32" height="32"/>
+  <object name="Obstacle" type="WallA" x="9680" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="9136" y="240" width="32" height="32"/>
+  <object name="Spike" x="10160" y="336" width="32" height="32"/>
+  <object name="Spike" x="10128" y="336" width="32" height="32"/>
+  <object name="Spike" x="10096" y="336" width="32" height="32"/>
+  <object name="Spike" x="10192" y="336" width="32" height="32"/>
+  <object name="Spike" x="10976" y="352" width="32" height="32"/>
+  <object name="Spike" x="10944" y="352" width="32" height="32"/>
+  <object name="Spike" x="10912" y="352" width="32" height="32"/>
+  <object name="Spike" x="11072" y="352" width="32" height="32"/>
+  <object name="Spike" x="11040" y="352" width="32" height="32"/>
+  <object name="Spike" x="11008" y="352" width="32" height="32"/>
+  <object name="EPIC" type="RevivePotion" x="10480" y="336" width="32" height="32"/>
+  <object name="Flag" x="14704" y="528" width="32" height="32"/>
+  <object name="Spike" x="12704" y="272" width="32" height="32"/>
+  <object name="Spike" x="12768" y="272" width="32" height="32"/>
+  <object name="Spike" x="12672" y="272" width="32" height="32"/>
+  <object name="Spike" x="12736" y="272" width="32" height="32"/>
+  <object name="DogCamp" x="13072" y="336" width="32" height="32">
+   <properties>
+    <property name="delay" value="0.55"/>
+    <property name="vx" value="265"/>
+   </properties>
+  </object>
+  <object name="DogCamp" x="13120" y="336" width="32" height="32">
+   <properties>
+    <property name="delay" value="0.55"/>
+    <property name="vx" value="265"/>
+   </properties>
+  </object>
+  <object name="Spike" x="13552" y="336" width="32" height="32"/>
+  <object name="Spike" x="13520" y="336" width="32" height="32"/>
+  <object name="Spike" x="13488" y="336" width="32" height="32"/>
+  <object name="Spike" x="13456" y="336" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1232" y="272" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1264" y="272" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1616" y="368" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="1968" y="368" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="2448" y="400" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="2512" y="400" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="2896" y="352" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="2928" y="352" width="32" height="32"/>
+  <object name="EPIC" type="Scroll" x="3280" y="352" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4480" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4784" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4752" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="5040" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="5008" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4208" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="3744" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="3776" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="3808" y="304" width="32" height="32"/>
+  <object name="EPIC" type="Scroll" x="5936" y="496" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4592" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4560" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4656" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4624" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4832" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4800" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4896" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4864" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4528" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="4928" y="528" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="5600" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="5632" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="5664" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="6640" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="6576" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="6608" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="6544" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="6512" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="7152" y="400" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="7216" y="400" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="7184" y="400" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="8000" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="8064" y="384" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="8032" y="384" width="32" height="32"/>
+  <object name="EPIC" type="Scroll" x="11104" y="160" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="9168" y="240" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="9200" y="240" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="9504" y="208" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="9536" y="208" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="9472" y="208" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="10448" y="192" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="10480" y="192" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="10416" y="192" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11168" y="352" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11200" y="352" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11136" y="352" width="32" height="32"/>
+  <object name="EPIC" type="Scroll" x="12288" y="384" width="32" height="32"/>
+  <object name="EPIC" type="Scroll" x="14416" y="400" width="32" height="32"/>
+  <object name="EPIC" type="Scroll" x="13600" y="336" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11504" y="192" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11536" y="192" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11568" y="192" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11888" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11920" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="11952" y="304" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="12384" y="272" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="12416" y="272" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="12448" y="272" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="12688" y="176" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="12720" y="176" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="12752" y="176" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="13232" y="240" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="13264" y="240" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="13296" y="240" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="14112" y="320" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="14144" y="320" width="32" height="32"/>
+  <object name="EPIC" type="crystal-pink" x="14176" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="NPC" width="970" height="60">
+  <object name="Spawn" type="Archer" x="4224" y="480" width="32" height="32">
+   <properties>
+    <property name="fire_interval" value="1"/>
+    <property name="fire_vx" value="150"/>
+    <property name="fire_vy" value="10"/>
+   </properties>
+  </object>
+  <object name="Spawn" type="Archer" x="8640" y="224" width="32" height="32">
+   <properties>
+    <property name="fire_interval" value="1"/>
+    <property name="fire_vx" value="150"/>
+    <property name="fire_vy" value="10"/>
+   </properties>
+  </object>
+  <object name="Spawn" type="Archer" x="12144" y="384" width="32" height="32">
+   <properties>
+    <property name="fire_interval" value="1"/>
+    <property name="fire_vx" value="-100"/>
+    <property name="fire_vy" value="0"/>
+   </properties>
+  </object>
+  <object name="Spawn" type="Archer" x="14640" y="528" width="32" height="32">
+   <properties>
+    <property name="fire_interval" value="1"/>
+    <property name="fire_vx" value="-100"/>
+    <property name="fire_vy" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
